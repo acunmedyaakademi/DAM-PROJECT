@@ -158,3 +158,148 @@ body {
 .about--main-hero-right-img {
   max-width: 100%;
 }
+
+/* Features Section */
+
+.about--features-top-base {
+  padding: 64px 0 64px 0;
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about--features-top-base-card {
+  flex-basis: 268px;
+}
+
+.about--features-info {
+  background-color: #2b63d9;
+  padding: 64px 0;
+}
+
+.about--features-info-title {
+  max-width: 1280px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about--features-info-title h2 {
+  font-size: 32px;
+  color: #fff;
+  line-height: 40px;
+
+  margin-bottom: 16px;
+}
+
+.about--features-info-title p {
+  color: #b1ccfb;
+}
+
+.about--features-info-cards {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.about--features-info-card {
+  width: 384px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #3971e7;
+  padding: 24px 32px;
+}
+
+.about--features-info-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about--features-info-card-icon {
+  width: 48px;
+  height: 48px;
+  background-color: #437ef7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about--features-info-card-top button {
+  border: none;
+  display: inline-block;
+  color: #437ef7;
+  background-color: #fff;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.about--features-info-card-bottom p {
+  color: #b1ccfb;
+  font-weight: 400;
+}
+
+.about-features-money {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 48px 32px 80px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about--features-money-left {
+  flex-basis: 524px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about--features-money-uptext {
+  font-size: 14px;
+  font-weight: 600;
+  color: #437ef7;
+}
+
+.about--features-money-middletext h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #272d37;
+  line-height: 42px;
+  letter-spacing: -1px;
+}
+
+.about--features-money-btn {
+  border: none;
+  background-color: #437ef7;
+  display: inline-block;
+  padding: 12px 18px 12px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.about--features-money-right {
+  flex-basis: 560px;
+}
+
+.about--features-money-img {
+  max-width: 100%;
+}
