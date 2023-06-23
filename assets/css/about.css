@@ -433,3 +433,9 @@ body {
   gap: 16px;
   color: #5f6d7e;
 }
+
+/* About--Cta Section */
+.about--cta-wrapper {
+  padding: 64px 0;
+  background-color: #2b63d9;
+}
