@@ -451,6 +451,12 @@ body {
   gap: 32px;
 }
 
+.about--cta-title h2 {
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: 42px;
+}
+
 .about--cta-btn {
   display: inline-block;
   padding: 12px 18px;
