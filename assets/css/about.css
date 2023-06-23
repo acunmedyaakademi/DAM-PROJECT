@@ -303,3 +303,133 @@ body {
 .about--features-money-img {
   max-width: 100%;
 }
+
+/* About Team Section */
+.about--team {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 64px 0;
+}
+
+.about--team-title {
+  max-width: 800px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 64px;
+}
+
+.about--team-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.about--team-title h2 {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -2px;
+  color: #272d37;
+  margin-bottom: 16px;
+}
+
+.about--team-title p {
+  letter-spacing: -1px;
+  color: #5f6d7e;
+}
+
+.about--team-card {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.about--team-card-info {
+  width: 276px;
+}
+
+.about--team-card-info a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #437ef7;
+  display: inline-block;
+  margin-bottom: 16px;
+  font-size: 16px;
+  letter-spacing: -1px;
+}
+
+.about--team-card-info p {
+  margin-bottom: 16px;
+  color: #5f6d7e;
+  letter-spacing: -1px;
+}
+
+.about--team-card-social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.about--section-line {
+  width: 100%;
+  height: 1px;
+  background-color: #437ef7;
+}
+
+/* Web Tabel Section */
+.about--web-tabel-section {
+  padding: 64px 0;
+}
+.about--web-tabel {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about--web-tabel-title {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.about--web-tabel-question {
+  border: 1px solid #eaebf0;
+  padding: 20px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about--web-tabel-question-left h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #272d37;
+}
+
+.about--web-tabel-question-left p {
+  color: #5f6d7e;
+}
+
+.about--web-tabel-question a {
+  color: #437ef7;
+  background-color: #f5faff;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.about--web-tabel-question-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #5f6d7e;
+}
