@@ -631,3 +631,45 @@ body {
 .pricing--main-hero-text p {
   color: #5f6d7e;
 }
+
+.pricing--pricing-btn {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px;
+  text-align: center;
+}
+
+.pricing--pricing-btns {
+  background-color: #eaebf0;
+  border: 1px solid #eaebf0;
+  border-radius: 5px;
+  padding: 6px;
+  width: 384px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.pricing--monthly-btn {
+  padding: 9px 18px;
+  color: #272d37;
+  background-color: #f7f7f8;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  width: 185px;
+}
+
+.pricing--yearly-btn {
+  color: #5f6d7e;
+  padding: 9px 18px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  width: 185px;
+  background: none;
+}
