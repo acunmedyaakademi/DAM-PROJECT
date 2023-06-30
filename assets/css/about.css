@@ -532,3 +532,20 @@ body {
   text-align: center;
   padding: 32px 0;
 }
+
+/* Pricing */
+
+.pricing--main-header {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.185);
+  padding: 20px 0;
+}
+
+.pricing--main-navbar {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px 0 32px;
+}
