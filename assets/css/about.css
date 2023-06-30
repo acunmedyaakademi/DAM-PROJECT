@@ -798,3 +798,66 @@ body {
   width: 36px;
   height: 36px;
 }
+
+.pricing--pricing-plan {
+  background-color: #151b28;
+  color: #fff;
+}
+
+.pricing--pricing-plan-title {
+  width: 800px;
+  margin: auto;
+  padding: 48px 0;
+  text-align: center;
+}
+
+.pricing--pricing-plan-title h2 {
+  color: #f9f9f9;
+}
+
+.pricing--pricing-plan-title p {
+  color: #a5acba;
+}
+
+.pricing--pricing-plan-container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.pricing--pricing-plan-container-ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing--pricing-plan-container-ul-ul-list-item {
+  opacity: 0;
+}
+
+.pricing--pricing-plan-container-ul-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pricing--pricing-plan-container-ul-ul li {
+  padding-top: 16px;
+  width: 280px;
+}
+
+.pricing--pricing-plan-container-ul-ul li p {
+  color: #a5acba;
+}
+
+.pricing--pricing-plan-container-ul-ul-list-item-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pricing--pricing-plan-container-ul-ul-list-item-img-2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
