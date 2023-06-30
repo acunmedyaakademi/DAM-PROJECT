@@ -861,3 +861,33 @@ body {
   align-items: center;
   gap: 5px;
 }
+
+.pricing--pricing-testimonials {
+  padding: 64px 0;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.pricing--pricing-testimonials-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing--pricing-testimonials-container-left {
+  width: 632px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.pricing--pricing-testimonials-container-left h3 {
+  font-weight: 500;
+  color: #272d37;
+  margin-bottom: 32px;
+  font-size: 28px;
+}
+
+.pricing--pricing-testimonials-container-left p {
+  color: #5f6d7e;
+}
