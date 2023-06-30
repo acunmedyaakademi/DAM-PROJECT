@@ -1238,3 +1238,60 @@ body {
   top: 20px;
   right: 20px;
 }
+
+.careers--webtable {
+  padding: 64px 0;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.careers--webtable-table1 {
+  background-color: #f8f9fb;
+  border: 1px solid #eaebf0;
+}
+
+.careers--webtable-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  padding: 0 32px;
+}
+
+.careers--webtable-title h3 {
+  font-size: 18px;
+  color: #272d37;
+}
+
+.careers--webtable-title p {
+  color: #5f6d7e;
+}
+
+.careers--webtable-title span {
+  color: #437ef7;
+  font-size: 14px;
+}
+
+.careers--webtable-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding: 16px 32px;
+}
+
+.careers--webtable-item:not(:last-child) {
+  border-bottom: 1px solid #eaebf0;
+}
+
+.careers--webtable-item > * {
+  flex: 1;
+}
+
+.careers--webtable-item h4 {
+  color: #272d37;
+}
+
+.careers--webtable-item p {
+  color: #5f6d7e;
+}
