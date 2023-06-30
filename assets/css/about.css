@@ -602,3 +602,32 @@ body {
   font-weight: 600;
   color: #fff;
 }
+
+.pricing--main-hero {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 30px 92px 30px;
+}
+
+.pricing--main-hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.pricing--main-hero-text h4 {
+  font-size: 14px;
+  color: #437ef7;
+  font-weight: 600;
+}
+
+.pricing--main-hero-text h1 {
+  font-size: 52px;
+}
+
+.pricing--main-hero-text p {
+  color: #5f6d7e;
+}
