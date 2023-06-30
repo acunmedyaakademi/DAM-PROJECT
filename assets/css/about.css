@@ -1177,3 +1177,64 @@ body {
 .careers--features-money-img {
   max-width: 100%;
 }
+
+.careers--stairs img {
+  width: 100%;
+  display: block;
+}
+
+.careers--innernav {
+  padding: 64px 0;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.careers--innernav-title {
+  width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.careers--innernav-title h4 {
+  color: #437ef7;
+}
+
+.careers--innernav-title h2 {
+  font-size: 32px;
+  color: #272d37;
+}
+
+.careers--innernav-title p {
+  color: #5f6d7e;
+}
+
+.careers--innernav-dropdowns {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.careers--innernav-dropdowns ul {
+  list-style: none;
+}
+
+.careers--innernav-dropdowns ul li {
+  width: 400px;
+}
+
+.careers--innernav-dropdowns ul input {
+  padding: 12px 16px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.careers--innernav-dropdowns-item {
+  position: relative;
+}
+
+.careers--innernav-down-arrow {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
