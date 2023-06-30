@@ -1295,3 +1295,64 @@ body {
 .careers--webtable-item p {
   color: #5f6d7e;
 }
+
+.careers--testimonials {
+  padding: 64px 0;
+}
+
+.careers--testimonials-title {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.careers--testimonials-title h2 {
+  font-size: 32px;
+  color: #272d37;
+  margin-bottom: 24px;
+}
+
+.careers--testimonials-title p {
+  color: #5f6d7e;
+}
+
+.careers--testimonials-hero {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 64px 0;
+}
+
+.careers--testimonials-hero-text {
+  display: flex;
+  align-items: center;
+  padding: 32px;
+  gap: 16px;
+}
+
+.careers--testimonials-hero-text-left {
+  border-right: 1px solid #eaebf0;
+}
+
+.careers--testimonials-hero-text-left p {
+  color: #5f6d7e;
+}
+
+.careers--testimonials-hero-text-left > * {
+  margin-bottom: 1rem;
+}
+
+.careers--testimonials-hero-text-right p {
+  color: #5f6d7e;
+}
+
+.careers--testimonials-hero-text-right a {
+  text-decoration: none;
+  color: #437ef7;
+}
+
+.careers--testimonials-hero-text-right > * {
+  margin-bottom: 1rem;
+}
