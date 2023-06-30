@@ -931,3 +931,29 @@ body {
   padding: 12px 24px;
   border-radius: 6px;
 }
+
+.pricing--pricing-cta {
+  padding: 64px 0;
+  background-color: #2b63d9;
+  color: #fff;
+  text-align: center;
+}
+
+.pricing--pricing-cta h2 {
+  font-size: 32px;
+  width: 600px;
+  line-height: 42px;
+  margin: auto;
+  letter-spacing: -1px;
+  margin-bottom: 24px;
+}
+
+.pricing--pricing-cta button {
+  background-color: white;
+  color: #437ef7;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 18px;
+  border-radius: 6px;
+  border: none;
+}
